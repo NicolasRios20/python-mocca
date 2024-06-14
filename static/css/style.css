@@ -1,0 +1,50 @@
+
+/* Estilos para el tema claro */
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Estilos para el tema oscuro */
+.dark-theme {
+  background-color: #171718;
+  color: #ffffff;
+}
+
+/* Estilos para el tema claro */
+.light-theme .navbar {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Estilos para el tema oscuro */
+.dark-theme .navbar {
+  background-color: #171718;
+  color: #ffffff;
+}
+
+/* Asegurar que los enlaces en el navbar tengan el color adecuado */
+.light-theme .navbar a {
+  color: #000000;
+}
+
+.dark-theme .navbar a {
+  color: #ffffff;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  padding-top: 60px; /* Ajusta esto según la altura de tu nav */
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  z-index: 1000; /* Asegura que el nav esté sobre otros elementos */
+}
